@@ -20,7 +20,6 @@ ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps3
 
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=web main.yaml
 
-
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=shipping main.yaml
 
 if [ -f /app/db/master-data.sql ]; then
